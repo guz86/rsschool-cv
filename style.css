@@ -1,0 +1,164 @@
+:root {
+    --bg: #2B2C2C;
+    --content: #2D2E2E;
+    --text: #F8F0E4;
+    --important: #e0a80d;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: var(--bg);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: var(--content);
+    color: var(--text);
+}
+
+body {
+    font-size: 20px;
+    color: var(--text);
+    font-family: "Ubuntu", sans-serif;
+    margin: 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+pre {
+    margin: 0px;
+}
+
+code {
+    padding: 0px;
+    color: var(--important);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.navigation_link {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.avatar_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.about {
+    padding: 0px 15% 10px 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+.title span {
+    color: var(--important);
+}
+
+.subtitles {
+    padding: 20px 20px 0px 100px;
+}
+.main_content {
+    background-color: var(--content);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content {
+    padding: 0px 150px 10px 150px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 150px 10px 150px;
+    justify-content: space-around;
+    gap: 28px;
+    color: var(--important);
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 150px 0px 150px;
+    padding: 15px 0px 15px 0px;
+    justify-content: left;
+    gap: 28px; 
+    border-top: solid var(--important) 0.5px;
+}
+
+.years {
+    width: 15%;
+}
+
+.description {
+    width: 85%;
+}
+ 
+
+.experience span {
+    color: var(--important);
+}
+
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 15% 0px 15%;
+    justify-content: space-around;
+    gap: 18px;
+    color: var(--important);
+}
+
+.education {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 15% 0px 15%;
+    padding: 15px 0px 15px 0px;
+    justify-content: left;
+    gap: 28px; 
+    border-top: solid var(--important) 0.5px;
+}
+
+.education span {
+    color: var(--important);
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 150px 0px 150px;
+    justify-content: space-around;
+    gap: 18px;
+}
