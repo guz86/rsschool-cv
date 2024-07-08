@@ -5,6 +5,10 @@
     --important: #e0a80d;
 }
 
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 html {
     box-sizing: border-box;
     background-color: var(--bg);
@@ -28,7 +32,11 @@ body {
     font-size: 20px;
     color: var(--text);
     font-family: "Ubuntu", sans-serif;
-    margin: 0px;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 footer {
@@ -43,11 +51,15 @@ li {
 
 pre {
     margin: 0px;
+    overflow-x: auto;
+    white-space: pre-wrap;
 }
 
 code {
     padding: 0px;
     color: var(--important);
+    word-wrap: break-word;
+    display: block;
 }
 
 .navigation {
@@ -86,10 +98,18 @@ code {
 .subtitles {
     padding: 20px 20px 0px 100px;
 }
+
+.subtitle {
+    padding: 20px 20px 0px 100px;
+}
 .main_content {
     background-color: var(--content);
     display: flex;
     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
 }
 
 
