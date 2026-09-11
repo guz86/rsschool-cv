@@ -1,1 +1,1 @@
-https://guz86.github.io/rsschool-cv/
+https://gordienkodev.github.io/rsschool-cv/
